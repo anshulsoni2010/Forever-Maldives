@@ -1,0 +1,425 @@
+@import url('https://fonts.cdnfonts.com/css/sansation');
+
+  @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+/* uses of above font font-family: 'Homemade Apple', cursive; */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {}
+
+.main {
+    height: 900px;
+    background-image: url(../header-bg.gif);
+    background-size: cover;
+    border-radius: 0px 0px 20px 20px;
+}
+
+nav {
+    height: 65px;
+    background: #ffffff21;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    position: relative;
+}
+
+.logo {
+    background: none;
+    margin: 0 -550px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.hero {
+    display: flex;
+    width: 100%;
+    height: 90%;
+    background-color: transparent;
+}
+
+.left {}
+
+.main-heading {
+    color: #FFF;
+    font-family: Sansation;
+    width: 642px;
+    margin: 335px 0 0 114px;
+    font-size: 51.474px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.287px;
+}
+
+.short-pricing {
+    margin-top: 50px;
+    text-align: center;
+    color: #FFF;
+    font-family: Sansation;
+    font-size: 30.451px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 133px;
+    padding: 11px 36px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    letter-spacing: -0.761px;
+}
+
+.right {}
+
+.book-btn {
+    width: 212.85px;
+    height: 66px;
+    border-radius: 39.336px;
+    background: #FFF;
+    margin-left: 75%;
+    margin-top: 262%;
+    border: 1ps solid #2959A1;
+}
+
+.btn-txt {
+    color: #2959A1;
+    font-family: Sansation;
+    font-size: 27.738px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.about {
+    background-color: #fff;
+    align-items: center;
+}
+
+.about-heading-container_center {
+    align-items: center;
+    margin-bottom: 1%;
+}
+
+.about-heading {
+    color: #2959A1;
+    text-align: center;
+    font-family: Sansation;
+    font-size: 51.706px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.293px;
+}
+
+.about-heading span {
+    color: #2959A1;
+    font-family: Sansation;
+    font-size: 51.706px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.293px;
+}
+
+.scheme-heading {
+    background-image: url(../forever-maldives_sketch.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25%;
+    height: 80px;
+}
+
+.scheme-heading p {
+    text-align: center;
+    color: #2959A1;
+    font-family: Sansation, 'sans';
+    font-size: 51.474px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.287px;
+}
+
+.about-us {
+    margin: 5% auto;
+    align-items: center;
+    width: 1143px;
+    height: 559px;
+    display: flex;
+}
+
+.about-us .content p {
+    color: #000;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-right: 2%;
+}
+
+.about-us .content {
+    width: 50%;
+}
+
+.about-us .img {
+    width: 50%;
+    height: 559px;
+
+}
+
+.about-us .content .collab-logo {
+    display: flex;
+    padding: 2%;
+}
+
+.inclusion-section {
+    display: flex;
+    align-items: center;
+
+}
+
+.inclusion-content {
+    width: 50%;
+}
+
+.inclusion-side_img {
+    width: 50%;
+}
+
+.inclusion-side_img img {
+    height: 70%;
+}
+
+.inclusion-heading h1{
+    display: flex;
+    color: #2959A1;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.inclusion-heading .inclusion-content span{
+    display: flex;
+    color: #2959A1;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.inclusion-content img {
+    height: 75px;
+}
+
+
+/* sukhamn's work */
+.client-section {
+    height: 100%;
+    background-image: url(../testimonials.png);
+    background-size: cover;
+    width: 100%;
+}
+
+.heading-part {
+    text-align: center;
+    font-family: Sansation;
+    font-size: 36px;
+    padding: 2rem;
+    font-style: italic;
+}
+
+.heading-part h1 {
+    color: #fff;
+}
+
+.heading-part span {
+    color: #2959A1;
+}
+
+.review-section {
+    padding: 2rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.review-section div {
+    color: #fff;
+    padding: 3rem 3rem;
+    border-radius: 1.6rem;
+    background-color: rgba(0, 0, 0, .3)
+}
+
+.testimonial-sub {
+    padding-inline: 30%;
+    padding-top: 5%;
+    display: flex;
+    gap: 2rem;
+}
+
+.testimonial-sub div {
+    background-color: #2959A1;
+    padding: 2rem;
+    border-radius: 1.6rem;
+    color: #fff;
+}
+
+.book-btnu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width: fit-content;
+    text-align: center;
+    border-radius: 3.6rem;
+    padding: 0.2rem 1rem;
+}
+
+.book-btnu span {
+    color: #2959A1;
+    font-family: Sansation;
+    font-size: 27.738px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.featured-section {
+    margin: 1% auto;
+}
+
+.featured-heading {
+    font-size: xx-large;
+    color: #2959A1;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.wrapper {
+    display: flex;
+    width: 850px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 180px;
+    padding: 2.5rem;
+}
+
+.founder-note {
+    position: relative;
+
+    margin: 2rem 6rem;
+    background-color: #2959A1;
+    width: 1318.51px;
+    height: 350.022px;
+    border-radius: 1.8rem;
+    display: flex;
+}
+
+.founder-note img {
+    top: -2rem;
+    transform: translateX(8rem);
+    width: 500px;
+    height: 450px;
+    position: absolute;
+}
+
+.founder-text {
+    color: #fff;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    transform: translate(50rem, 5rem);
+    gap: 1rem;
+
+}
+
+.noteworthy-collabs {
+    background-color: #C4DCFF;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+    color:#2959A1;
+    gap:3rem;
+    padding-inline: 10rem;
+  
+}
+.noteworthy-collabs h1{
+    font-size: 2rem;
+}
+.model-images{
+    display: flex;
+    flex-wrap: wrap;
+    gap:3rem;
+}
+.trip-gallery span{
+    font-family: 'Homemade Apple', cursive;
+    color:#2959A1;
+    font-size: 2rem;
+}
+.trip-gallery{
+    margin-top: 5rem;
+}
+.head-trip-gallery{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.trip-gallery-img{
+    padding-inline: 10rem;
+    display: flex;
+    gap:2rem;
+}
+.Gallery1{
+    gap:1rem;
+    display:flex;
+    flex-direction:column;
+}
+.Gallery3{
+    gap:1rem;
+    display:flex;
+    flex-direction:column;
+    /* I am keeping my laptop on because I will close then this session will stop okay
+let me whenever complete(do call me okay) -Do react with emoji if you noted it->_____ */ 
+}
+.item {
+    animation: animate 25s alternate linear infinite;
+}
+
+.container:hover .item {
+    animation-play-state: paused;
+}
+
+@keyframes animate {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(-1100px, 0, 0);
+    }
+}
+
+@media (max-width:767px) {
+    .slider-area h2 {
+        font-size: 30px;
+    }
+
+    .wrapper {
+        width: 95%;
+        border-radius: 0;
+        padding: 0;
+    }
+}
+
+/* I am keeping my laptop on because I will close then this session will stop okay
+let me whenever complete(do call me okay) */
