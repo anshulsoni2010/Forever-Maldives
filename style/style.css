@@ -1,6 +1,6 @@
 @import url('https://fonts.cdnfonts.com/css/sansation');
 
-  @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
 /* uses of above font font-family: 'Homemade Apple', cursive; */
 
 * {
@@ -194,7 +194,7 @@ nav {
     height: 70%;
 }
 
-.inclusion-heading h1{
+.inclusion-heading h1 {
     display: flex;
     color: #2959A1;
     font-family: sans-serif;
@@ -204,7 +204,7 @@ nav {
     line-height: normal;
 }
 
-.inclusion-heading .inclusion-content span{
+.inclusion-heading .inclusion-content span {
     display: flex;
     color: #2959A1;
     font-family: sans-serif;
@@ -219,7 +219,71 @@ nav {
 }
 
 
-/* sukhamn's work */
+.activities-heading {
+    text-align: center;
+    color: #2959A1;
+    font-family: sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.activities-cards {
+    display: flex;
+    justify-content: center;
+    /* align item horizontally */
+    align-items: center;
+    /* align item vertically */
+    margin: 44px 0;
+    padding: 0;
+}
+
+.activities-cards_1 {
+    width: 50%;
+}
+
+.activities-cards_1 img,
+.activities-cards_2 img {
+    width: 60%;
+    height: 90%;
+}
+
+.activities-cards_1 h1,
+.activities-cards_2 h1 {
+    color: #000;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 0.5rem;
+    border-radius: 14.263px;
+    border: 2.311px solid #2959A1;
+    margin-bottom: 2%;
+}
+
+.activities-cards_1 div,
+.activities-cards_2 div {
+    width: fit-content;
+
+}
+
+.activities-cards_2 {
+    width: 50%;
+}
+
+.Itinerary-section{
+    display: flex;
+}
+
+.itinerary-section_1, .itinerary-section_2, .itinerary-section_3{
+    width: 33.3%;
+    border: #000 2px solid; 
+    height: 50rem;
+}
+
+/* ----  */
 .client-section {
     height: 100%;
     background-image: url(../testimonials.png);
@@ -346,50 +410,70 @@ nav {
     display: flex;
     flex-direction: column;
     margin-top: 10rem;
-    color:#2959A1;
-    gap:3rem;
+    color: #2959A1;
+    gap: 3rem;
     padding-inline: 10rem;
-  
+
 }
-.noteworthy-collabs h1{
+
+.noteworthy-collabs h1 {
     font-size: 2rem;
 }
-.model-images{
+
+.model-images {
     display: flex;
     flex-wrap: wrap;
-    gap:3rem;
+    gap: 3rem;
 }
-.trip-gallery span{
+
+.trip-gallery span {
     font-family: 'Homemade Apple', cursive;
-    color:#2959A1;
+    color: #2959A1;
     font-size: 2rem;
 }
-.trip-gallery{
+
+.trip-gallery {
     margin-top: 5rem;
 }
-.head-trip-gallery{
+
+.head-trip-gallery {
     flex-direction: column;
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
 }
-.trip-gallery-img{
+
+.trip-gallery-img {
     padding-inline: 10rem;
     display: flex;
-    gap:2rem;
+    gap: 2rem;
 }
-.Gallery1{
-    gap:1rem;
-    display:flex;
-    flex-direction:column;
+
+.Gallery1 {
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
 }
-.Gallery3{
-    gap:1rem;
-    display:flex;
-    flex-direction:column;
+
+.Gallery3 {
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
     /* I am keeping my laptop on because I will close then this session will stop okay
-let me whenever complete(do call me okay) -Do react with emoji if you noted it->_____ */ 
+let me whenever complete(do call me okay) -Do react with emoji if you noted it->_____ */
+}
+.form-section{
+    margin-top: 4rem;
+    padding:3rem;
+}
+.form-area{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../footer-bg.png);
+background-repeat: no-repeat;
+background-size: 100%;
+border-radius:7px;
 }
 .item {
     animation: animate 25s alternate linear infinite;
