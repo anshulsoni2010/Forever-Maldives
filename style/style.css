@@ -1,5 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/sansation');
-
+@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
 /* uses of above font font-family: 'Homemade Apple', cursive; */
 
@@ -7,9 +6,12 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 
-body {}
+body {
+    font-family: 'Signika', sans-serif;
+}
 
 .main {
     height: 900px;
@@ -46,7 +48,7 @@ nav {
 
 .main-heading {
     color: #FFF;
-    font-family: Sansation;
+    font-family: 'Signika', sans-serif;
     width: 642px;
     margin: 335px 0 0 114px;
     font-size: 51.474px;
@@ -60,7 +62,7 @@ nav {
     margin-top: 50px;
     text-align: center;
     color: #FFF;
-    font-family: Sansation;
+    font-family: 'Signika', sans-serif;
     font-size: 30.451px;
     font-style: normal;
     font-weight: 400;
@@ -86,7 +88,7 @@ nav {
 
 .btn-txt {
     color: #2959A1;
-    font-family: Sansation;
+    font-family: 'Signika', sans-serif;
     font-size: 27.738px;
     font-style: normal;
     font-weight: 700;
@@ -106,7 +108,7 @@ nav {
 .about-heading {
     color: #2959A1;
     text-align: center;
-    font-family: Sansation;
+    font-family: 'Signika', sans-serif;
     font-size: 51.706px;
     font-style: normal;
     font-weight: 700;
@@ -116,7 +118,7 @@ nav {
 
 .about-heading span {
     color: #2959A1;
-    font-family: Sansation;
+    font-family: 'Signika', sans-serif;
     font-size: 51.706px;
     font-style: normal;
     font-weight: 400;
@@ -128,15 +130,14 @@ nav {
     background-image: url(../forever-maldives_sketch.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 25%;
+    background-size: 25;
     height: 80px;
 }
 
 .scheme-heading p {
     text-align: center;
     color: #2959A1;
-    font-family: Sansation, 'sans';
-    font-size: 51.474px;
+    font-family: 'Signika', sans-serif;    font-size: 51.474px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -153,7 +154,6 @@ nav {
 
 .about-us .content p {
     color: #000;
-    font-family: Poppins;
     font-size: 22px;
     font-style: normal;
     font-weight: 500;
@@ -179,43 +179,13 @@ nav {
 .inclusion-section {
     display: flex;
     align-items: center;
+    justify-content: center;
+    gap: 50px;
 
 }
 
-.inclusion-content {
-    width: 50%;
-}
-
-.inclusion-side_img {
-    width: 50%;
-}
-
-.inclusion-side_img img {
-    height: 70%;
-}
-
-.inclusion-heading h1 {
-    display: flex;
-    color: #2959A1;
-    font-family: sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-.inclusion-heading .inclusion-content span {
-    display: flex;
-    color: #2959A1;
-    font-family: sans-serif;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-.inclusion-content img {
-    height: 75px;
+.inclusion-benefits{
+    height: 50rem;
 }
 
 
@@ -273,14 +243,36 @@ nav {
     width: 50%;
 }
 
+
 .Itinerary-section{
     display: flex;
+    align-items: center;
+    margin: auto 0;
 }
 
 .itinerary-section_1, .itinerary-section_2, .itinerary-section_3{
     width: 33.3%;
-    border: #000 2px solid; 
     height: 50rem;
+}
+
+.itinerary-section_2 img{
+    margin-top: 5.5rem;
+}
+
+.itinerary-section_3 img{
+    margin-top: 0.5rem;
+}
+.itinerary-title{
+    justify-content: center;
+    font-size: 2rem;
+    width: fit-content;
+    text-align: left;
+    color: #000;
+
+/* font-family:; */
+/* font-size: 46.55px; */
+font-style: normal;
+font-weight: 700;
 }
 
 /* ----  */
@@ -293,7 +285,7 @@ nav {
 
 .heading-part {
     text-align: center;
-    font-family: Sansation;
+    font-family: 'Signika', sans-serif;
     font-size: 36px;
     padding: 2rem;
     font-style: italic;
@@ -337,7 +329,7 @@ nav {
 .book-btnu {
     display: flex;
     align-items: center;
-    justify-content: center;
+    
     background-color: #fff;
     width: fit-content;
     text-align: center;
@@ -347,7 +339,7 @@ nav {
 
 .book-btnu span {
     color: #2959A1;
-    font-family: Sansation;
+    font-family: 'Signika', sans-serif;
     font-size: 27.738px;
     font-style: normal;
     font-weight: 700;
@@ -464,25 +456,130 @@ nav {
 let me whenever complete(do call me okay) -Do react with emoji if you noted it->_____ */
 }
 .form-section{
+    font-family: 'Signika', sans-serif;
     margin-top: 4rem;
     padding:3rem;
 }
 .form-area{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+
     background-image: url(../footer-bg.png);
 background-repeat: no-repeat;
-background-size: 100%;
+background-size: cover;
+justify-content: space-between;
 border-radius:7px;
+padding-inline-end: 6rem;
+height:100%;
 }
+.form-heading{
+    padding:2rem 3rem;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    color:#fff;
+  
+    
+}
+.form-heading h1{
+ 
+    font-size: 4rem;
+   
+}
+
+.form-heading h3{
+    font-size: 1.3rem;
+    width: 90%;
+}
+.form-here{
+    margin-block: 2rem;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, .6);
+    display: flex;
+    flex-direction: column;
+    color:#fff;
+    gap:1rem;
+    padding:1rem;
+}
+.form-here p{
+    padding-inline: 1rem;
+}
+.form-here h1{
+   padding-inline: 5rem;
+    font-size: 1.6rem;
+}
+
+
 .item {
     animation: animate 25s alternate linear infinite;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding:1rem;
+    gap:0.6rem;
+    font-family: 'Signika', sans-serif;
+}
+form div{
+    display: flex;
+    flex-direction: column;
+}
+input[type="text"]{
+    border: none;
+    background-color: rgba(0, 0, 0, .3);
+    outline: none;
+    color:#fff;
+    padding:0.5rem;
+    border-radius: 10px;
+    border: 3px solid #ccc;
+
+}
+input[type="email"]{
+    border: 1px solid #fff;
+    color:#fff;
+    padding:0.5rem;
+    background-color: rgba(0, 0, 0, .3);
+    outline: none;
+    border: 3px solid #ccc;
+    border-radius: 10px;
 }
 
 .container:hover .item {
     animation-play-state: paused;
 }
+form label{
+    margin-block: 0.3rem;
+}
+.form-submit{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+.form-submit button{
+    border-radius: 8px;
+background-color: #2959A1;
+color:#fff;
+box-shadow: 0 0 10px #ccc;
+border: none;
+outline:none;
+font-family: 'Signika', sans-serif;
+padding:1rem;
+width: 60%;
 
+}
+footer{
+    font-family: 'Signika', sans-serif;
+    display: flex;
+    margin-inline: 5rem;
+    justify-content: space-between;
+}
+.social-icons-footer{
+    display: flex;
+    gap:0.5rem;
+}
+form span{
+    color:rgba(220, 26, 26, 0.705);
+}
 @keyframes animate {
     0% {
         transform: translate3d(0, 0, 0);
